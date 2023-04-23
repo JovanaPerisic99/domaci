@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/domaci/static/css/main.48c719e7.css",
+    "main.js": "/domaci/static/js/main.b6b9fc46.js",
+    "index.html": "/domaci/index.html",
+    "main.48c719e7.css.map": "/domaci/static/css/main.48c719e7.css.map",
+    "main.b6b9fc46.js.map": "/domaci/static/js/main.b6b9fc46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48c719e7.css",
+    "static/js/main.b6b9fc46.js"
+  ]
+}
