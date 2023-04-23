@@ -23,7 +23,7 @@ const AddPost = () => {
             if(response.data.length !== 0){
               setPosts(response.data);
               let newId = response.data.slice(-1)[0].id + 1;
-              setInputFields({...inputFields, id: newId})
+              setInputFields(state=> ({...state, id: newId}))
             }
     });
   },[])

@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(()=>{
     axios.get('https://jsonblob.com/api/jsonBlob/1099697245481353216')
         .then((response) => {
-          console.log(response.data);
+          //console.log(response.data);
           setPosts(response.data)
         });
   },[])
