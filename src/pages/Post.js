@@ -10,7 +10,7 @@ const Post = () => {
   useEffect(()=>{
     axios.get(`https://jsonblob.com/api/jsonBlob/1099697245481353216/`)
         .then((response) => {
-          const data = response.data.find((post)=> post.id==params.postId)
+          const data = response.data.find((post)=> post.id===params.postId)
           setPost(data)
         });
   },[params.postId])

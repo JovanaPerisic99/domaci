@@ -10,7 +10,7 @@ const AddPost = () => {
   const navigate = useNavigate();
 
   const [inputFields, setInputFields] = useState({
-    id:0,
+    id:"0",
     title:"",
     author:"",
     url:"",
@@ -22,8 +22,8 @@ const AddPost = () => {
           .then((response) => {
             if(response.data.length !== 0){
               setPosts(response.data);
-              let newId = response.data.slice(-1)[0].id + 1;
-              setInputFields(state=> ({...state, id: newId}))
+              let newId = Number(response.data.slice(-1)[0].id) + 1;
+              setInputFields(state=> ({...state, id: newId.toString()}))
             }
     });
   },[])
