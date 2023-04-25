@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/addPost" element={<AddPost />} />
-          <Route path="/:postId" element={<Post />} />
+          <Route path="/domaci/" element={<Home />} />
+          <Route path="/domaci/addPost" element={<AddPost />} />
+          <Route path="/domaci/:postId" element={<Post />} />
         </Routes>
       </Router>
     </div>
