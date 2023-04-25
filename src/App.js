@@ -12,8 +12,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/addPost" exact element={<AddPost />} />
-          <Route path="/:postId" element={<Post />} />
+          <Route path="/add" element={<AddPost />} />
+          <Route path="/post/:postId" element={<Post />} />
         </Routes>
       </Router>
     </div>

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='navbar'>
         <Link to="/"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOoFiiA4om9zqQpItJVE0GKarIASiGQEPoDp3w9VCVw-eumQVscMOpPvLic8_OYU_a8Ts&usqp=CAU" alt="blogIcon" /> </Link>
-        <Button href="/addPost" variant="primary"> Add post </Button>
+        <Button href="/add" variant="primary"> Add post </Button>
     </div>
   )
 }
